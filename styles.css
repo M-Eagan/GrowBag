@@ -12,6 +12,20 @@
     transform: translate(-50%, -50%);
 }
 
+.company-title {
+    color: white;
+}
+
+.company-title {
+    color: white;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 600%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .welcome-container {
     position: relative;
     text-align: center;
