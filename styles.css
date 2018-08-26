@@ -10,10 +10,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.company-title {
-    color: white;
+    border: none;
 }
 
 .company-title {
@@ -21,9 +18,10 @@
     font-family: 'Calligraffitti', cursive;
     font-size: 600%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: none;
 }
 
 .welcome-container {
@@ -50,7 +48,7 @@
 
 a {
     color: #7C8574;
-    font-family: 'Calligraffitti', cursive;
+    font-family: 'Montserrat', sans-serif;
     border: solid 5px #CDD0CE;
     display: inline-block;
     padding: 2%;
@@ -59,7 +57,6 @@ a {
     margin: 2%;
     font-size: 150%;
     background-color: #F0F8F4;
-    box-shadow: 10px 5px #CDD0CE;
     border-radius: 10px;
     font-weight: bold;
     text-decoration: none;
@@ -131,6 +128,95 @@ input {
 .input-message {
     height: 50%;
     padding-top: 10%;
+}
+
+/* shop page */
+
+.shop-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.shop-form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shop-selection {
+    padding: 0;
+    width: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buy-submit {
+    font-family: 'Calligraffitti', cursive;
+    padding: 2px;
+    border: 1px solid #CDD0CE;
+    border-radius: 10px;
+    box-shadow: 5px 3px #CDD0CE;
+}
+
+.shop-img {
+    width: 80%;
+    height: 80%;
+    border: 3px solid #7C8574;
+   
+}
+
+/* how it works page */
+
+h2 {
+    color: #7C8574;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 240%;
+}
+
+.how-it-works {
+    font-size: 120%;
+    width: 80%;
+    
+}
+
+/* FAQ page */
+
+.faq-Question {
+    width: 95%;
+    font-size: 150%;
+    color: #7C8574;
+    border: none;
+}
+
+.faq-Answer {
+    padding-left: 10%;
+    font-size: 110%;
+}
+
+/* recipes page */
+
+.affiliate-link {
+    color: #7C8574;
+    font-size: 60%;
+    /* background-color: #C9EDA5; */
+    justify-content: center;
+    border: 3px solid #7C8574;;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.recipe-header {
+    color: #7C8574;
+    border: 3px solid #7C8574;
+}
+
+li {
+    color: #7C8574;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 120%;
+    font-weight: bold;
 }
 
 <!-- font-family: 'Calligraffitti', cursive;
